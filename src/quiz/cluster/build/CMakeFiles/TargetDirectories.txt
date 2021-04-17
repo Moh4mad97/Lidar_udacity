@@ -1,0 +1,3 @@
+C:/Users/Admin/source/repos/Project1_ Lidar/src/quiz/cluster/build/CMakeFiles/quizCluster.dir
+C:/Users/Admin/source/repos/Project1_ Lidar/src/quiz/cluster/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Admin/source/repos/Project1_ Lidar/src/quiz/cluster/build/CMakeFiles/ZERO_CHECK.dir

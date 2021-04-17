@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\SOURCE\REPOS\PROJECT1_ LIDAR\SRC\QUIZ\CLUSTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Admin/source/repos/Project1_ Lidar/src/quiz/cluster" "-BC:/Users/Admin/source/repos/Project1_ Lidar/src/quiz/cluster/build" --check-stamp-file "C:/Users/Admin/source/repos/Project1_ Lidar/src/quiz/cluster/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

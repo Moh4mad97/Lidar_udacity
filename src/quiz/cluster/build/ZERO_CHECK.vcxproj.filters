@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Admin\source\repos\Project1_ Lidar\src\quiz\cluster\build\CMakeFiles\65116c2f8747fb67078d811110670e83\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{56F7D5C4-6BE1-3BAD-B03A-DC62F1F4C883}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
