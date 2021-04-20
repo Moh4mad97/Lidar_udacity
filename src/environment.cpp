@@ -299,7 +299,7 @@ void cityBlock(pcl::visualization::PCLVisualizer::Ptr& viewer, ProcessPointCloud
         for (int indice : cluster)
             clusterCloud->points.push_back(pcl::PointXYZ(points[indice][0], points[indice][1], points[indice][2]));
         renderPointCloud(viewer, clusterCloud, "cluster" + std::to_string(clusterId), colors[clusterId % 3]);
-        renderPointCloud(viewer, segmented_cloud.first, "inliers", Color(0, 1, 0));
+        renderPointCloud(viewer, segmented_cloud.first, "Ground" + std::to_string(clusterId), Color(0, 1, 0));
         Box box = BoundingBox(clusterCloud);
         renderBox(viewer, box, clusterId);
         ++clusterId;
